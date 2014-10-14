@@ -13,7 +13,7 @@ pkg/*
 
 .ruby-gemset
 .ruby-version
-.idea/
+.idea/*
 .eprj
 *.*~
 **/thumbs.db
