@@ -1,7 +1,7 @@
 # Uncomment this if you reference any of your controllers in activate
 require_dependency 'application_controller'
 
-class ReorderExtension < Radiant::Extension
+class ReorderExtension < TrustyCms::Extension
   version "0.2.1"
   description "Allows (re)ordering of pages in the page tree."
   url "http://dev.radiantcms.org/"
