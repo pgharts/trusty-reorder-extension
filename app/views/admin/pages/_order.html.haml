@@ -1,2 +1,11 @@
 - unless simple
-  %td.order= level > 0 ? order_links(page) : ""
+  %td.order
+    - if level > 0
+      = link_to(image_tag("admin/move_to_top.png", :alt => "Move To Top"),
+      admin_page_page_move_to_top_url(page.id), {:id => page, :method => :post})
+      = link_to(image_tag("admin/move_higher.png", :alt => "Move Higher"),
+      admin_page_page_move_higher_url(page.id), {:id => page, :method => :post})
+      = link_to(image_tag("admin/move_lower.png", :alt => "Move Lower"),
+      admin_page_page_move_lower_url(page.id), {:id => page, :method => :post})
+      = link_to(image_tag("admin/move_to_bottom.png", :alt => "Move To Bottom"),
+      admin_page_page_move_to_bottom_url(page.id), {:id => page, :method => :post})
