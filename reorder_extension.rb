@@ -4,7 +4,7 @@ require_dependency 'application_controller'
 class ReorderExtension < TrustyCms::Extension
   version "0.2.1"
   description "Allows (re)ordering of pages in the page tree."
-  url "http://dev.radiantcms.org/"
+  url "https://github.com/pgharts/trusty-reorder-extension"
     
   def activate
     admin.page.index.add :sitemap_head, "order_header"

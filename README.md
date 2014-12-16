@@ -27,6 +27,3 @@ http://www.famfamfam.com/lab/icons/silk/
   
 4) Restart your server and edit the order of the pages from the admin interface.
 To bypass the ordering system simply supply a "by" option to the finder tags.
-
-== Compatibility
-The 0.7.1 tag is compatible with Radiant 0.7.1. Edge is currently compatible with Radiant 0.9.0RC1.
