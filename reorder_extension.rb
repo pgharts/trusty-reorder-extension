@@ -2,7 +2,7 @@
 require_dependency 'application_controller'
 
 class ReorderExtension < TrustyCms::Extension
-  version "0.2.1"
+  version "1.0.2"
   description "Allows (re)ordering of pages in the page tree."
   url "https://github.com/pgharts/trusty-reorder-extension"
     

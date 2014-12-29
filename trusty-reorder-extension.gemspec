@@ -4,7 +4,7 @@ require "trusty-reorder-extension"
 
 Gem::Specification.new do |s|
   s.name        = "trusty-reorder-extension"
-  s.version = "1.0.1"
+  s.version = "1.0.2"
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Sipple"]
   s.date = %q{2014-10-07}
