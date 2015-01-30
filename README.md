@@ -1,5 +1,7 @@
 = Reorder
 
+[![Gem Version](https://badge.fury.io/rb/trusty-reorder-extension.svg)](http://badge.fury.io/rb/trusty-reorder-extension)
+
 Created by Sean Cribbs, October 2007.  Inspired by Adam Williams' original
 reorder extension.
 
