@@ -1,0 +1,2 @@
+gemspec: trusty-reorder-extension.gemspec
+deploy_command: gem push
